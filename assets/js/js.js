@@ -43,7 +43,7 @@ function confirmarPedido() {
     } else {
         alert("Pedido confirmado com sucesso!\nSabor: " + $saborSelecionado);
         // Redireciona para a página inicial após confirmar
-        window.location.href = "pagina-inicial.html";
+        window.location.href = "produtos.html";
     }
 }
 // Seleção dos elementos do HTML usando as classes identificadoras
@@ -91,7 +91,7 @@ function confirmarPedido() {
     } else {
         alert("Pedido confirmado com sucesso!\nSabor: " + $saborSelecionado);
         // Redireciona para a página inicial após confirmar
-        window.location.href = "pagina-inicial.html";
+        window.location.href = "produtos.html";
     }
 }
 
@@ -140,7 +140,7 @@ function confirmarPedido() {
     } else {
         alert("Pedido confirmado com sucesso!\nSabor: " + $saborSelecionado);
         // Redireciona para a página inicial após confirmar
-        window.location.href = "pagina-inicial.html";
+        window.location.href = "produtos.html";
     }
 }
 
