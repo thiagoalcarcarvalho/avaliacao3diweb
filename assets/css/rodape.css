@@ -1,0 +1,43 @@
+ .rodape{
+    padding-top: 2em;
+    padding-bottom: 2em;    
+    text-align: center;
+    font-size: 0.7rem;
+}
+.rodape_logo{
+    width: 11.25em;
+    margin-bottom: 1em;
+}
+.rodape_lista-midia-social{
+    display: flex;
+    justify-content: center;    
+}
+.rodape_info-empresa{
+    line-height: 1.5;
+}
+.rodape_lista-midia-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.rodape_item-midia-social{
+    width: 2.65em;
+    margin: 0.25em;
+}
+.rodape_item-midia-social img{
+    width: 100%;    
+}
+.rodape_titulo{
+    margin-bottom: 1em;
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rodape_item-lista{
+    font-weight:500;
+    margin: 0.625em 0;
+}
+.rodape_titulo{
+    color: #000;
+    margin: 0.625em 0;
+}

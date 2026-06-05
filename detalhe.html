@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/detalhe.css">
+    <title>Detalhe01</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Pizza</h1>
+    </header>
+    
+    <figure class="centralizar" style="width: 150px;">
+        <img src="assets/img/pizza.jpeg" alt="foto da pizza">
+    </figure>
+    
+    <p class="centralizar">Escolha o seu sabor favorito:</p>
+    <br>
+    
+    <!-- Adicionada a classe js-sabores e os valores numéricos como preços -->
+    <select name="estado" id="sabores" class="js-sabores" required>
+        <option value="0">Selecione o sabor</option>
+        <option value="40">Peperone - R$ 40,00</option>
+        <option value="38">Calabresa - R$ 38,00</option>
+        <option value="42">Portuguesa - R$ 42,00</option>
+        <option value="45">Frango com Bacon - R$ 45,00</option>
+    </select>
+
+    <!-- Campos para exibir o resumo do pedido na tela -->
+    <div class="resumo-pedido">
+        <p>Total do Pedido: R$ <span class="js-total-pizza">0</span>,00</p>
+    </div>
+
+    <!-- Botão de confirmação adicionado -->
+    <button class="js-botao-pedido">Confirmar Pedido</button>
+    <a href="produtos.html" class="btn btn-primary">Voltar</a>
+    <br><br>
+    <article class="resumo-pedido">
+        <h2>Resumo do Pedido</h2>
+        <p>Sabor: <span class="js-sabor-selecionado">Nenhum sabor selecionado</span></p>
+        <p>Total: R$ <span class="js-total-pizza-resumo">0</span>,00</p>
+    </article>
+
+    <!-- Link para o arquivo JavaScript (recomenda-se no final do body) -->
+    <script src="assets/js/js.js"></script>
+</body>
+</html>

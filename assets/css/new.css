@@ -1,0 +1,36 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+h1{
+margin-bottom: 20px;
+text-align: center;
+}
+label{
+    color:#000;
+}
+form{
+            background-color: #fff;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid coral;
+            width: 800px;
+        }
+label{
+ font-weight: 600;
+    }
+        input{
+            margin: 5px 0px;
+            padding: 5px;
+            border: 1px solid coral;
+            color: coral;
+        }
+        .button{
+            padding: 10px 10px;
+            background-color: coral;
+            color: white;
+            font-weight: 600;
+            border: none;
+        }

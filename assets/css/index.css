@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: "Helvetica", "Lucida Grande", sans-serif;   
+    text-align: center;  
+     width: 80%;
+     max-width:940px;
+     font-weight: bold;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 0.6em;
+     line-height: 1.5;
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+     background-color: #2d5377;
+     text-transform: uppercase;
+     letter-spacing: 0.23em;
+}
+h1{
+    font-family: serif;
+    color: red;    
+    padding: 10px; /*tamanho do preenchimento interno do elemento*/
+    font-size: 32px;
+    text-align: center;
+}
